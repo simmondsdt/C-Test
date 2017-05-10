@@ -7,7 +7,7 @@ public class Program {
 		Console.Write("Hello " + username + " do you like fruitcake? ");
 		string answer = Console.ReadLine();
 		if (answer == "yes" || answer == "Yes") {
-			Console.Write("You suck");
+			Console.Write("Are you a human?");
 			Environment.Exit(0);
 		} else {
 			Console.Write("You rock!");
